@@ -4,3 +4,5 @@
 .outline:hover{color:#153f3b}
 
 @media(max-height:650px) and (min-width:651px){.card h2{font-size:30px;margin:8px 0}.card p{font-size:12px;margin:8px 0}.card .brief{gap:6px;margin:10px 0}.card button{margin-top:6px}}
+.overlay{grid-template-columns:minmax(0,1fr)}.card{min-width:0;justify-self:center}
+@media(max-width:360px){.hud{gap:14px}.hud .status strong{font-size:11px}.touch{gap:8px}.dpad{grid-template-columns:repeat(3,39px)}.actions{gap:5px}.actions button{padding:12px 8px;font-size:11px}}
